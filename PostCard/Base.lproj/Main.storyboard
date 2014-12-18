@@ -65,7 +65,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="90" width="349" height="110"/>
+                                    <rect key="frame" x="16" y="112" width="349" height="88"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8l-vv-eBU">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="90" width="349" height="21"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TAe-qC-kpO">
@@ -109,6 +118,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="yxJ-dB-fCJ"/>
+                                <exclude reference="L8l-vv-eBU"/>
                                 <exclude reference="TAe-qC-kpO"/>
                                 <exclude reference="AQB-vJ-YF7"/>
                                 <exclude reference="u4V-r2-ni0"/>
@@ -118,6 +128,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="yxJ-dB-fCJ"/>
+                                <include reference="L8l-vv-eBU"/>
                                 <include reference="TAe-qC-kpO"/>
                                 <include reference="AQB-vJ-YF7"/>
                                 <include reference="u4V-r2-ni0"/>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="u4V-r2-ni0" id="7e2-FY-yhP"/>
                         <outlet property="enterNameTextField" destination="AQB-vJ-YF7" id="RjC-dz-3gI"/>
                         <outlet property="messageLabel" destination="yxJ-dB-fCJ" id="K8Z-8h-KgL"/>
+                        <outlet property="nameLabel" destination="L8l-vv-eBU" id="0Yk-nq-cFq"/>
                         <outlet property="sendMailButton" destination="j8T-Ck-c41" id="0Rv-oh-ZRd"/>
                     </connections>
                 </viewController>
